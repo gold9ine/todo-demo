@@ -10,7 +10,7 @@ import Container from "react-bootstrap/Container";
 import api from "./utils/api";
 
 function App() {
-  const [todoList, setTodoList] = useState({});
+  const [todoList, setTodoList] = useState([]);
   const [todoValue, setTodoValue] = useState("");
 
   const getTasks = async () => {
